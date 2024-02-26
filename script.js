@@ -15,7 +15,7 @@ document.getElementById('flipButton').addEventListener('click', function() {
       coin.classList.remove('flipping');
       let flipResult = Math.random() < 0.5;
       coin.style.backgroundImage = flipResult ? "url('1.png')" : "url('2.png')";
-      result.textContent = flipResult ? "РЕШКА" : "ОРЕЛ";
+      result.textContent = flipResult ? "РЕШКА/HEADS" : "ОРЕЛ/TAILS";
     }, 2000);
   });
 
